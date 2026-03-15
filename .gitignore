@@ -38,10 +38,12 @@ Desktop.ini
 *.swo
 *~
 
-# Large binaries from prior art
+# Large binaries and scraped content from prior art
 Stochastic multi-agent Chat Room/*.docx
 Stochastic multi-agent Chat Room/*.log
 Stochastic multi-agent Chat Room/multi-chrome-agent-workspace/*.log
+Stochastic multi-agent Chat Room/multi-chrome-agent-workspace/**/*.txt
+Stochastic multi-agent Chat Room/multi-chrome-agent-workspace/**/*.json
 
 # Temp files
 *.tmp
