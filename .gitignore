@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.bun/
+bun.lockb
+
+# Build outputs
+dashboard/.next/
+dashboard/out/
+dashboard/dist/
+
+# Database files (generated at runtime)
+*.db
+*.db-wal
+*.db-shm
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Agent OS runtime state (regenerated per machine)
+.agent-os/sessions/*/
+.agent-os/logs/*.log
+.agent-os/registry/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude Code local config (credentials, session history)
+.claude/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large binaries from prior art
+Stochastic multi-agent Chat Room/*.docx
+Stochastic multi-agent Chat Room/*.log
+Stochastic multi-agent Chat Room/multi-chrome-agent-workspace/*.log
+
+# Temp files
+*.tmp
+*.temp
